@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 
-const W = 10, H = 20;
+const W = 15, H = 22;
 type Board = (string | null)[][];
 type Piece = { shape: number[][]; color: string; x: number; y: number };
 type Game = { board: Board; piece: Piece; score: number; over: boolean };
